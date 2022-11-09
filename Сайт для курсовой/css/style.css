@@ -1,0 +1,232 @@
+/*      Header         */
+
+body{
+    width: 1050px;
+    margin: 0 auto;
+}
+
+h2{
+    position: relative;
+    float: right;
+    top: 20px;
+
+    color: rgb(2, 85, 110);
+
+    padding-right: 10px;
+    
+}
+
+
+/* Navigation */
+nav{
+    background-color: rgb(3, 138, 216);
+    width: 200px;
+    
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 3px;
+}
+
+li{
+    margin: 5px 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: blue;
+    transition: 0.2s linear;
+}
+
+
+/* Text */
+
+p{
+    text-indent: 20px;
+}
+
+.container{
+    position: relative;
+    float: right;
+
+    width: 840px;
+    top: -120px;
+}
+
+.zaglText{
+    color: rgb(2, 13, 110);
+}
+
+.podcherc{
+    color: rgb(0, 82, 158);
+    border-bottom: 1px solid rgb(2, 85, 110);   
+}
+
+.video{
+    width: 600px;
+    height: 300px;
+}
+
+.containerText{
+    background-color: rgba(101, 247, 132, 0.705);
+}
+
+/* Footer */
+
+.containerFooter{
+    position: absolute;
+    top: 825px;
+    white-space: nowrap;
+}
+
+.adress{
+    position: absolute;
+    top: 870px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+/* Cursi site */
+
+.tableOglav{
+    position: relative;
+    left: 330px;
+    top: -120px;
+}
+
+
+
+
+/* Table */
+table{
+    border-collapse: collapse;
+    width: 700px;
+}
+
+th{
+    border: 1px solid #34689b;
+    width: 350px;
+}
+
+td{
+    border: 1px solid  #34689b;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.nizStroc{
+ text-align: right;
+}
+
+.otstup{
+    padding-right: 1px;
+}
+
+.wide{
+    width: 30px;
+}
+
+#colorTable{
+    background-color: color="#ddf4ff";
+}
+
+
+/* List Forma */
+
+.site_forma{
+    position: relative;
+    width: 200px;
+    left: 600px;
+    top: -110px;
+}
+
+.nameVvod{
+    position: relative;
+    left: -150px;
+    top: 32px;
+}
+
+.PoleName{
+    width: 140px;
+    
+
+    position: relative;
+    left: 82px;
+    
+}
+
+.Theme{
+    position: relative;
+    left: -150px;
+}
+
+.SelectTheme{
+    position: relative;
+    top: -32px;
+    left: 70px;
+
+    width: 160px;
+}
+
+.ViborTime{
+
+    position: relative;
+    top: -30px;
+    left: -150px;
+
+    width: 270px;
+}
+
+.rbBlock{
+    width: 300px;
+
+    position: relative;
+    left: -130px;
+    top: -38px;
+}
+
+.TextArena{
+    width: 355px;
+    
+}
+
+.txtArena{
+    position: relative;
+    left: -130px;
+    top: -30px;
+}
+
+.chBox{
+    width: 400px;
+
+    position: relative;
+    left: -130px;
+    top: -20px;
+}
+
+.btnSend{
+    position: relative;
+    left: 65px;
+    top: -4px;
+}
+
+.btnClear{
+    position: relative;
+    left: 155px;
+    top: -25px;
+}
+
+
+
+
+
+
+
+
+
+
