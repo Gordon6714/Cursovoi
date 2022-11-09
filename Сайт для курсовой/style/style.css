@@ -299,7 +299,7 @@
     width: 124px;
     height: 17px;
     left: 254px;
-    top: 9px;
+    top: 0px;
     
     font-family: 'Junge';
     font-style: normal;
@@ -311,6 +311,127 @@
       
 }
 
+.list_block2_rt1_block1_kategor{
+    position: absolute;
+    width: 81px;
+    height: 15px;
+    left: 254px;
+    top: 90px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.list_block2_rt1_block1{
+    position: absolute;
+    width: 124px;
+    height: 132px;
+    left: 0px;
+    top: -10px;
+}
+
+.list_block2_rt1_block1_img{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 254px;
+    top: 115px;
+}
+
+.list_block2_rt1_block1_timeText{
+    position: absolute;
+    width: 81px;
+    height: 15px;
+    left: 268px;
+    top: 104px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.list_block2_rt1_block1_adres{
+    position: absolute;
+    width: 103px;
+    height: 15px;
+    left: 254px;
+    top: 119px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+.list_block2_rt1_block2{
+    position: absolute;
+    width: 124px;
+    height: 133px;
+    left: 254px;
+    top: -10px;
+}
+
+.list_block2_rt1_block3{
+    position: absolute;
+    width: 124px;
+    height: 133px;
+    left: 478px;
+    top: -10px;
+}
+
+.list_block2_rt1_block4{
+    position: absolute;
+    width: 124px;
+    height: 133px;
+    left: 702px;
+    top: -10px;
+}
+
+.list_block3{
+    position: absolute;
+    width: 1231px;
+    height: 1379px;
+    left: 120px;
+    top: 1274px;
+    
+    background: rgba(29, 29, 29, 0.98);
+    border-radius: 107px;
+}
+
+.list_block3_title_text{
+    position: absolute;
+    width: 423px;
+    height: 40px;
+    left: 61px;
+    top: 59px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;   
+}
 
 
 
