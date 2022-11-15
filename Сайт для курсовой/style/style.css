@@ -421,7 +421,7 @@
     width: 423px;
     height: 40px;
     left: 61px;
-    top: 59px;
+    top: 20px;
     
     font-family: 'Junge';
     font-style: normal;
@@ -432,6 +432,135 @@
     
     color: #FFFFFF;   
 }
+
+/* Блок сортировки */
+
+.list_block3_block_sort{
+    position: absolute;
+    width: 323px;
+    height: 35px;
+    left: 702px;
+    top: 56px;
+    
+    background: #FFFFFF;
+    border-radius: 17px;
+}
+
+.list_block3_block_sort_text{
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 19px;
+    top: -15px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    
+    
+    color: #000000;
+}
+
+.list_block3_block_sort_rect{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 290px;
+    top: 12px;
+    
+}
+
+/* Блок сортировки конец */
+
+/* Блок показа сеансов */
+
+.list_block3_raspis{
+    position: absolute;
+    width: 979px;
+    height: 1138px;
+    left: 126px;
+    top: 191px;
+}
+
+/* Расписание фильма общая */
+
+.list_block3_raspis_film1_nazvan{
+    position: absolute;
+    width: 206px;
+    height: 28px;
+    left: 216px;
+    top: 24px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #FFFFFF;
+}
+
+.list_block3_raspis_film1_photo{
+    position: absolute;
+    width: 182px;
+    height: 262px;
+    
+    background: #D9D9D9;
+    border-radius: 54px;
+}
+
+.list_block3_raspis_film1_photo_text{
+    position: absolute;
+    width: 90px;
+    height: 24px;
+    left: 46px;
+    top: 95px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+.list_block3_raspis_film1_ogran{
+    position: absolute;
+    width: 83px;
+    height: 15px;
+    left: 216px;
+    top: 68px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+
+/* Расписание фильма общая конец */
+
+.list_block3_raspis_film1{
+    position: absolute;
+    width: 978px;
+    height: 262px;
+    left: 0px;
+    top: 0px;
+
+    background: #6F337D;
+    border-radius: 52px;
+}
+
+
 
 
 
