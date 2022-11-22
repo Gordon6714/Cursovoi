@@ -547,7 +547,6 @@
     color: #FFFFFF;
 }
 
-/* Расписание фильма общая конец */
 
 .list_block3_raspis_film1{
     position: absolute;
@@ -560,6 +559,216 @@
     border-radius: 52px;
 }
 
+.list_block3_raspis_film1_block_raspis{
+    position: absolute;
+    width: 702px;
+    height: 110px;
+    top: 102px;
+    left: 216px;
+}
+
+.list_block3_raspis_film1_block_raspis_rc1{
+    position: absolute;
+    width: 702px;
+    height: 30px;
+    
+    background: #FFFFFF;
+}
+
+.list_block3_raspis_film1_block_raspis_rc1_name{
+    position: absolute;
+    width: 209px;
+    height: 28px;
+    top: -24px;
+    left: 3px;
+    
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+.list_block3_raspis_film1_block_raspis_rc1_time1{
+    position: absolute;
+    width: 40px;
+    height: 17px;
+    left: 329px;
+    top: -8px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.list_block3_raspis_film1_block_raspis_rc1_blockTime1{
+    position: absolute;
+    width: 54px;
+    height: 30px;
+    left: 374px;
+    
+    background: #D5CECE;
+}
+
+.list_block3_raspis_film1_block_raspis_rc1_time2{
+    position: absolute;
+    width: 37px;
+    height: 17px;
+    left: 384px;
+    top: -8px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.list_block3_raspis_film1_block_raspis_rc1_time3{
+    position: absolute;
+    width: 37px;
+    height: 17px;
+    left: 439px;
+    top: -8px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.list_block3_raspis_film1_block_raspis_rc2{
+
+    position: absolute;
+    width: 702px;
+    height: 30px;
+    top: 40px;
+    
+    background: #FFFFFF;
+}
+
+.list_block3_raspis_film1_block_raspis_rc3{
+
+    position: absolute;
+    width: 702px;
+    height: 30px;
+    top: 80px;
+    
+    background: #FFFFFF;
+}
+
+
+/* Расписание фильма общая конец */
+
+.list_block3_raspis_film2{
+    position: absolute;
+    width: 978px;
+    height: 262px;
+    left: 0px;
+    top: 292px;
+
+    background: #6F337D;
+    border-radius: 52px;
+}
+
+.list_block3_raspis_film3{
+    position: absolute;
+    width: 978px;
+    height: 262px;
+    left: 0px;
+    top: 584px;
+
+    background: #6F337D;
+    border-radius: 52px;
+}
+
+.list_block3_raspis_film4{
+    position: absolute;
+    width: 978px;
+    height: 262px;
+    left: 0px;
+    top: 876px;
+
+    background: #6F337D;
+    border-radius: 52px;
+}
+
+
+/* Footer */
+
+.footer_block{
+    position: absolute;
+    width: 1440px;
+    height: 71px;
+    left: 0px;
+    top: 2785px;
+    
+    background: rgba(29, 29, 29, 0.98);
+}
+
+.footer_img{
+    position: absolute;
+    width: 65.91px;
+    height: 67px;
+    left: 610px;
+}
+
+.footer_name{
+    position: absolute;
+    width: 118px;
+    height: 23px;
+    left: 694px;
+    top: -15px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+}
+
+.footer_blockText{
+    position: absolute;
+    width: 158.09px;
+    height: 24.03px;
+    left: 672px;
+    top: 43px;
+
+    background: #7C3D8C;
+border-radius: 16px;
+}
+
+.footer_blockText_text{
+    position: absolute;
+    width: 136.95px;
+    height: 17.03px;
+    left: 24px;
+    top: -8px;
+    
+    font-family: 'Junge';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    
+    color: #FFFFFF;
+}
 
 
 
