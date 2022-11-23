@@ -1,14 +1,8 @@
-/*      Header         */
-
 body{
     width: 1050px;
     margin: 0 auto;
 }
 
-h2{
-    position: relative;
-    float: right;
-    top: 20px;
 
     color: rgb(2, 85, 110);
 
