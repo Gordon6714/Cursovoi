@@ -1,6 +1,7 @@
 body {
     background-image: url(../img/background.gif); /* Путь к фоновому изображению */
     background-attachment: fixed; /* Фиксируем фон веб-страницы */
+    background-repeat: no-repeat;
     
    }
 
@@ -12,6 +13,12 @@ body {
     top: 970px;
     
     background: rgba(29, 29, 29, 0.98);
+}
+
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .logotip_img{
@@ -167,6 +174,8 @@ body {
     color: #FFFFFF;
 }
 
+
+
 .list_start_logotip{
     position: absolute;
     width: 225.27px;
@@ -233,6 +242,14 @@ body {
     text-align: right;
     
     color: #FFFFFF;
+}
+
+.list_block3_title_text a:hover{
+    color: #FFFFFF;
+}
+
+.list_block_text_block_btn_text a:hover{
+    color: #000000;
 }
 
 .list_block_text_block_btn{
@@ -323,7 +340,7 @@ body {
     width: 124px;
     height: 17px;
     left: 254px;
-    top: 0px;
+    top: 20px;
     
     font-family: 'Junge';
     font-style: normal;
@@ -333,6 +350,15 @@ body {
     
     color: #FFFFFF;
       
+}
+
+.list_block2_rt1_block1_name a{
+    width: 100px;
+    height: 30px;
+}
+
+a:hover{
+    color: #9D48B2;
 }
 
 .list_block2_rt1_block1_kategor{
