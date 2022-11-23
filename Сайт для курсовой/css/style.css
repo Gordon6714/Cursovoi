@@ -14,6 +14,14 @@ body {
     background: rgba(29, 29, 29, 0.98);
 }
 
+.logotip_img{
+    position: absolute;
+    width: 66.89px;
+    height: 68px;
+    left: 0px;
+    top: 3px;
+}
+
 .bg {
     margin-top: -10px;
     margin-left: -10px;
