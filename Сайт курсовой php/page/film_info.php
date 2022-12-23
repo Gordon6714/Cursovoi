@@ -28,9 +28,9 @@
                 <div class="menu_kontakt"><p>Контакты</p></div>
                 
             </div>
-            <div class="btn_zabroniravat">
-                <div class="btn_zabroniravat_text">Забронировать место</div>
-            </div>
+            <form action="">
+            <input onclick="window.location='/page/okno.php'" class="btn_zabroniravat" type="button" value="Забронировать место" >
+            </form>
             <div class="logotip">
                 <div class="logo_rt"></div>
                 <div class="logo_name"><p>KinoBraid</p></div>

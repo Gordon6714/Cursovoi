@@ -188,39 +188,57 @@
     </style>
 </head>
 <body>
-    
 
-    <div class="okno">
+
+
+    <?php
+    
+    $link = mysqli_connect('localhost', 'root', '', 'cursovoi');
+
+    if($link == false){
+        print("Ошибка подключения");
+        mysqli_connect_error();
+    } else{
+        
+       ?> <div class="okno">
         <div class="okno_name">Заказ билета</div>
         <div class="okno_anketa">
             <form method="post" action="../script/script.php">
                 <div class="okno_name_film">Название фильма</div>
                 <select name="name_film" class="okno_name_film_vibor_kino">
-                    <option value="1">film1</option>
-                    <option value="2">film2</option>
-                    <option value="3">film3</option>
-                    <option value="4">film4</option>
+                    <?php
+
+                        $query = "SELECT * FROM `film`";
+                        $result_select = mysqli_query($link, $query);
+
+                        while ($object = mysqli_fetch_object($result_select)){
+                            echo "<option value='$object->nazvanie'>$object->nazvanie</option>";}
+                    ?>
                 </select>
 
                 <div class="okno_name_adress">Адрес кинотеатра</div>
                 <select name="adress_kino" class="okno_name_film_vibor_adressa">
-                    <option value="karla">Карла Маркса</option>
-                    <option value="PrPobed">Проспект Победы</option>
-                    <option value="Suvorova">Суворова</option>
+
+                    <?php
+                        $query = "SELECT * FROM `adress`";
+                        $result_select = mysqli_query($link, $query);
+
+                        while ($object = mysqli_fetch_object($result_select)){
+                            echo "<option value='$object->adress'>$object->adress</option>";}
+                    ?>
                 </select>
 
                 <div class="okno_name_mesto">Место просмотра</div>
                 <select name="mesto" class="okno_name_film_vibor_mesto">
-                    <option value="1">A1</option>
-                    <option value="2">B1</option>
-                    <option value="3">C1</option>
-                    <option value="4">A2</option>
-                    <option value="5">B2</option>
-                    <option value="6">C2</option>
+                    <?php
+                        $query = "SELECT * FROM `mesto`";
+                        $result_select = mysqli_query($link, $query);
+
+                        while ($object = mysqli_fetch_object($result_select)){
+                            echo "<option value='$object->mesto'>$object->mesto</option>";}
+                    ?>
                 </select>
 
-                <div class="btn_otprav">
-                <div class="btn_otprav_name">Забронировать</div>
             </div>
 
             <input class="btn_zabron" name="btn" type="submit" value="Забронировать">
@@ -228,7 +246,14 @@
             </form>
         </div>
         <div class="summa">Стоимость : 0 р.</div>
-    </div>
+    </div> <?php
+    
+    } 
+    
+    ?>
+    
+
+    
 
 
 </body>

@@ -37,9 +37,9 @@
                     <div class="logotip_img"><img src="../img/mini_logo.png"></div>
                 </div>
             </div>
-            <div class="btn_zabroniravat">
-                <div class="btn_zabroniravat_text">Забронировать место</div>
-            </div>
+            <form action="">
+            <input onclick="window.location='/page/okno.php'" class="btn_zabroniravat" type="button" value="Забронировать место" >
+            </form>
             <div class="news_list_name"><p>Новости</p></div>
             <div class="news_list_text"><p>Здесь вы увидите актуальные новости</p></div>
 

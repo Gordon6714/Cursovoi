@@ -55,8 +55,8 @@
         </div>
 
         
-        <form action="">
-            <input onclick="window.location='/page/okno.php'" class="btn_zabroniravat" type="button" value="Забронировать место" >
+        <form action="/page/okno.php" method="post">
+            <input class="btn_zabroniravat" type="submit" value="Забронировать место" >
         </form>
         
 
